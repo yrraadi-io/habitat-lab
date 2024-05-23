@@ -1891,10 +1891,6 @@ class DatasetConfig(HabitatBaseConfig):
         "data/datasets/pointnav/"
         "habitat-test-scenes/v1/{split}/{split}.json.gz"
     )
-    custom_data_path: str = (
-        "data/datasets/pointnav/"
-        "habitat-test-scenes/v1/{split}/{split}.json.gz"
-    )
 
 
 @dataclass
